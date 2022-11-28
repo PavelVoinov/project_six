@@ -1,0 +1,51 @@
+.card__basket {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card__basket_left {
+    display: flex;
+    gap: 98px;
+    justify-content: left;
+    align-items: center;
+}
+
+.card__basket_right {
+    display: flex;
+    gap: 15px;
+    justify-content: right;
+    align-items: center;
+}
+
+.card__basket-img {
+    height: 132px;
+    width: 132px;
+}
+
+.card__basket-title {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    width: 310px;
+}
+
+.card__basket-price {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D58C51;
+}
+
+.card__basket-button {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #D58C51;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #D58C51;
+    cursor: pointer;
+    padding-top: 4px;
+    padding-left: 7px;
+}

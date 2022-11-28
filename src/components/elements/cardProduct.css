@@ -1,0 +1,139 @@
+.card-product {
+    background-blend-mode: multiply;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(13, 13, 13, 0.8);
+    background-image: url(../../../public/images/card_product_bg.jpg);
+    background-size: cover;
+}
+
+.card-container {
+    width: 1300px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.card-product__header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.card-product__header_back{
+    width: 32px;
+    height: 32px;
+    left: 0px;
+    top: 56px;
+    border: 1px solid #D58C51;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #D58C51;
+    cursor: pointer;
+    padding-bottom: 3px;
+}
+
+.card-product__header_items{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    color: #FFFFFF;
+}
+
+
+.card-product__basket_items {
+margin: 0px;
+text-align: right;
+}
+
+.card-product__basket_price {
+    margin: 0px;
+    text-align: right;
+}
+
+.card-product__basket_btn{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.card-product__basket_btn:hover{
+    background-color: #D58C51;
+    border-color: #D58C51;
+}
+
+.card-product__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+
+.card-product__img {
+    margin-left: 40px;
+    margin-top: 25px;
+    width: 500px;
+    height: 500px;
+}
+
+
+.card-product__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #D58C51;
+    /* width: 75px; */
+}
+
+.card-product__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    width: 530px;
+    margin-bottom: 45px;
+}
+
+.card-product__price{
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.card-product__weight{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-right: 75px;
+}
+
+.card-product__button {
+    padding: 13px 63px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #131313;
+    background: #D58C51;
+    cursor: pointer;
+}
+
+.card-product__exit {
+    border: 1px solid #D58C51;
+    width: 200px;
+    height: 42px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D58C51;
+    background-color: transparent;
+    cursor: pointer;
+}
